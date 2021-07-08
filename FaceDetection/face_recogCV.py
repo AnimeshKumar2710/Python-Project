@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 
 people = []
-dir = r"C:\Users\Cloud\Documents\GitHub\Python-Project\FaceDetection\faces"
+dir = r"\faces"
 for i in os.listdir(dir):
     people.append(i)
 
